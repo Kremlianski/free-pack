@@ -1,0 +1,71 @@
+.classica {
+  font-family: 'Roboto-Light', sans-serif;
+}
+.classica .mmg-img {
+  background-color: #dedede;
+  overflow: hidden;
+}
+.classica .mmg-caption-wrapper {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 200ms linear;
+  transition: opacity 200ms linear;
+  z-index: 1;
+}
+.classica .mmg-icon-container {
+  z-index: 0;
+}
+.classica .mmg-hover .mmg-caption-wrapper {
+  opacity: 1;
+}
+.classica .mmg-f-caption {
+  padding: 5px 10px;
+}
+.classica .mmg-f-caption {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.classica .mmg-descr,
+.classica .mmg-title,
+.classica .mmg-footer {
+  color: white;
+}
+.classica a {
+  color: white;
+}
+.classica .mmg-title {
+  font-size: 14px;
+  margin: 0;
+}
+.classica .mmg-descr {
+  font-size: 11px;
+}
+.classica .mmg-small .mmg-descr {
+  display: none;
+}
+.classica .mmg-small .mmg-title {
+  font-size: 14px;
+}
+.classica .mmg-icon {
+  z-index: 0;
+  position: relative;
+}
+.classica.mmg-ie9 .mmg-caption-wrapper,
+.classica.mmg-ie8 .mmg-caption-wrapper {
+  opacity: 1;
+  transform: none;
+  bottom: 0;
+  display: none;
+}
+.classica.mmg-ie8 .mmg-f-caption {
+  background-color: black;
+  font-family: sans-serif;
+  filter: alpha(opacity=80);
+}
+.classica.mmg-ie8 img {
+  border-width: 0;
+}
