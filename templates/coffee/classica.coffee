@@ -32,9 +32,9 @@ data-image-id='<%= imageId %>'>
         <%= data.title %>
       </div>
 <% } %>
-<% if(data.ownerName) { %>
+<% if(data.description) { %>
       <div class='<%=meta.NS %>-descr'>
-        by <%= data.ownerName %>
+        by <%= data.description %>
       </div>
 <% } %>
     </div>
@@ -133,7 +133,7 @@ MMG.Templates.Classica.ie9 = {}
 
 
 ###
-Template for IE8
+Template for IE9
 ###
 MMG.Templates.Classica.ie9.template =
 "
@@ -153,9 +153,9 @@ data-image-id='<%= imageId %>'>
         <%= data.title %>
       </div>
 <% } %>
-<% if(data.ownerName) { %>
+<% if(data.description) { %>
       <div class='<%=meta.NS %>-descr'>
-        by <%= data.ownerName %>
+        by <%= data.description %>
       </div>
 <% } %>
       </div>
@@ -166,7 +166,7 @@ data-image-id='<%= imageId %>'>
 "
 
 ###
-Callback for IE9, IE8
+Callback for IE9
 ###
 MMG.Templates.Classica.ie9.callback = ->
 
